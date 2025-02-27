@@ -1,0 +1,37 @@
+@use "../../utils" as *;
+
+.tab{
+    &__wrap{
+        button{
+            color: var(--rr-heading-primary) !important;
+
+            &.active {
+                color: var(--rr-theme-primary) !important;
+            }
+        }  
+    }
+}
+
+.widget_kingfact_contact_info_widget.visa-details__links-visa {
+    box-shadow: none;
+    padding: 0;
+    background: #fff;
+}
+.visa-details__links-visa.widget_kingfact_contact_info_widget a {
+    font-family: var(--rr-ff-heading);
+    color: var(--rr-heading-primary);
+    font-weight: 400;
+    line-height: 30px;
+    font-size: 16px;
+    font-style: normal;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-bottom: none;
+    padding-bottom: 0;
+}
+.service-details-title {
+    background: #F1F5EB;
+    border-radius: 20px 20px 0px 0px;
+    padding: 30px 30px 30px 30px;
+}
